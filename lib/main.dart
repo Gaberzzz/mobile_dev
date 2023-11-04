@@ -76,7 +76,8 @@ class Onboarding2 extends StatelessWidget {
                 ));
               },
               style: ElevatedButton.styleFrom(
-                primary: Color(0xFF11CDA7), // Set the button color to #11CDA7
+                backgroundColor:
+                    const Color(0xFF11CDA7), // Set the button color to #11CDA7
                 shape: RoundedRectangleBorder(
                   borderRadius:
                       BorderRadius.circular(20.0), // Make the button rounded
